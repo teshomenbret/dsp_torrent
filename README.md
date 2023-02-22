@@ -8,7 +8,7 @@ BitTorrent is a peer-to-peer (P2P) file sharing protocol that enables users to d
 ---write this command on the terminal
 
 ```
-npm install @reduxjs/toolkit react-redux
+go run main.go debian-edu-11.6.0-amd64-netinst.iso.torrent
 ```
 
 ### some word about **BitTorrent**
