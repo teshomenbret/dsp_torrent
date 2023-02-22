@@ -26,8 +26,10 @@ BitTorrent is a peer-to-peer (P2P) file sharing protocol that enables users to d
 The interval represents the number of seconds that should elapse before the client sends another request to the tracker. The list of peers contains information about other clients participating in the swarm, such as their IP address, port number, and peer ID.
 
 #### Downloading from peers(Peer to Peer Communication)
->To start downloading pieces from the list of peers provided by the tracker, we need to follow a few steps. For each peer in the list, we will:
+To start downloading pieces from the list of peers provided by the tracker, we need to follow a few steps. For each peer in the list, we will:
 
 1 Initiate a TCP connection with the peer.
+
 2 Perform a two-way BitTorrent handshake with the peer to establish a connection. This handshake includes sending and receiving information about the client's capabilities, such as the BitTorrent protocol version and supported extensions.
-2 Exchange messages with the peer to request and download pieces. This involves sending messages that specify which pieces are needed and receiving messages that contain the actual data. The peer will also request pieces from the client in exchange.
+
+3 Exchange messages with the peer to request and download pieces. This involves sending messages that specify which pieces are needed and receiving messages that contain the actual data. The peer will also request pieces from the client in exchange.
