@@ -5,6 +5,7 @@ BitTorrent is a peer-to-peer (P2P) file sharing protocol that enables users to d
 ### Installation
 > 1 Clone the repository
 ### Using the torrent
----here is the command 
+---write this command on the terminal
+
 ```go run main.go debian-edu-11.6.0-amd64-netinst.iso.torrent```
 
